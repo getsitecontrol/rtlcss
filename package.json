@@ -38,7 +38,7 @@
   },
   "scripts": {
     "lint": "standard && node ./lib/rtlcss.js",
-    "test": "npm run lint && mocha -R spec"
+    "test": "node $NODE_DEBUG_OPTION ./node_modules/.bin/_mocha -R spec"
   },
   "main": "./lib/rtlcss.js"
 }
