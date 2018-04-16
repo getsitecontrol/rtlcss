@@ -38,7 +38,8 @@
   },
   "scripts": {
     "lint": "standard && node ./lib/rtlcss.js",
-    "test": "node $NODE_DEBUG_OPTION ./node_modules/.bin/_mocha -R spec"
+    "test": "node $NODE_DEBUG_OPTION ./node_modules/.bin/_mocha -R spec",
+    "prepublishOnly": "npm version patch"
   },
   "main": "./lib/rtlcss.js"
 }
