@@ -1,5 +1,11 @@
 
 # Created by .ignore support plugin (hsz.mobi)
+test/
+docs/
+.gitattributes
+.rtlcssrc
+.travis.yml
+docs/
 .idea/
 ### Node template
 # Logs
