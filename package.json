@@ -1,7 +1,7 @@
 {
   "author": "Mohammad Younes",
   "name": "@gsc/rtlcss",
-  "version": "2.4.1",
+  "version": "2.4.0",
   "description": "Framework for transforming cascading style sheets (CSS) from left-to-right (LTR) to right-to-left (RTL)",
   "homepage": "http://rtlcss.com/",
   "bugs": "https://github.com/MohammadYounes/rtlcss/issues?state=open",
@@ -39,7 +39,6 @@
   "scripts": {
     "lint": "standard && node ./lib/rtlcss.js",
     "test": "node $NODE_DEBUG_OPTION ./node_modules/.bin/_mocha -R spec",
-    "prepublishOnly": "npm version patch"
   },
   "main": "./lib/rtlcss.js"
 }
