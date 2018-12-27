@@ -3,7 +3,9 @@
     "autoRename": true,
     "processUrls": true,
     "greedy": true,
-    "stringMap": []
+    "stringMap": [],
+    "tmplOpen":"/*",
+    "tmplClose":"*/"
   },
   "plugins": [],
   "map": true // used by CLI
